@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  form {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: lightblue;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  #results {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  input[type="radio"] {
+    float: left;
+  }
